@@ -7,8 +7,11 @@ elif  (marks<80 and marks>=70):
        Grade = 'B+'
 elif  (marks<70 and marks>=60):
        Grade = 'B'
-else  :
+elif  (marks<60 and marks>=50):
        Grade = 'C'
+else  :
+       Grade = 'D'
        
 print ("Grade Of Student is", Grade)
-    
+a=input("enter your marks:")
+print (type(a))
