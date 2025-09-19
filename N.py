@@ -1,4 +1,4 @@
-x='jython'
+'''x='jython'
 y='jython'
 print(id(x),id(y))
 a=[10,20,'python']
@@ -21,4 +21,6 @@ print(id(n),id(o))
 add=input("enter a value :")
 print(add,type(add))
 ad=eval(input("enter a value :"))
-print(add,type(ad))
+print(add,type(ad))'''
+a = (1,2,3,4,5,6,7)
+print(a.index('a', (a.index(4)+1)))
