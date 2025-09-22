@@ -1,0 +1,2 @@
+Word= "SUPERCALIFRAGILISTICEXPIALIDOCIOUS"
+print(Word[5:30:2][::-3][1:6][::-1][2:])
