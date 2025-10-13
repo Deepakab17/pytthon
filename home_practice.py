@@ -30,4 +30,4 @@ while i<=number:
 i=i-2
 while i>=1:
     print(''*(number-i)+'*'*i)
-    i=i-1   
+    i=i-1

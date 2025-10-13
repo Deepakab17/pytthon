@@ -98,6 +98,9 @@ i = 0
 #     else:
 #         print('*' + ' ' * (n - 2) + '*')  
 #     i += 1
-while i<=n:
-    print(' ' * (n - i) + ('*'* (2*i - 1)))
+# while i<=n:
+#     print(' ' * (n - i) + ('*'* (2*i - 1)))
+#     i=i+1
+while i<n:
+    print(''*i+'*'*(n-i))
     i=i+1

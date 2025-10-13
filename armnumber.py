@@ -1,18 +1,22 @@
-n=int(input('enter any number\n'))
-original=number=n
-sum=count=0
+n=int(input("enter a number\n"))
+count=0
+sum=0
+original=n
+new=n
 while n>0:
     count=count+1
     n=n//10
-# print(f'total_digits of {original} is {count}')  
-while original>0:
-    digit=original%10
+while new>0:
+    digit=new%10
     sum=sum+digit**count
-    original=original//10
-if  number==sum:
+    new=new//10
+if original==sum:
     print('armstrong')
 else:
-    print('not armstrong')    
+    print('not armstrong')        
+
+   
+
 
     
 
