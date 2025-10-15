@@ -8,13 +8,40 @@
 # for i in d.values():
 #     print(i)
 # n=int(input('enter any number\n'))
-# for i in range(1,n+1):
+# for i in range(0,n):
 #     print(''*i+'*'*(n-i))
-n=int(input('enter any number\n'))
-for i in range(0,n):
-    print(' '*i+' *'*(n-i))
-    for j in range(4,n+1)  :
-        print (' '*i+' *'*(n-i)) 
+# n=int(input('enter no of rows: \n'))
+# for i in range(1,n+1):
+#     print('*'*i)
+# n=int(input("enter a number :\n"))
+# for i in range(0,n):
+#     print(' '*i+'*'*(n-i))
+# n=int(input("enter a number :\n"))
+# for i in range(0,n):
+# #     print(' '*i+'* '*(n-i))
+# n=int(input("enter a number :\n"))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'*'*i)
+# n=int(input('enter any rows :\n'))
+# for i in range(0,n):
+#     print()
+# n=int(input('enter any number'))
+# i=1
+# while i<=n:
+#     if (i%2!=0):
+#         i=i+1
+#         continue
+#     else:
+#         print(i)
+#     i=i+1
+# n=int(input('enter any number'))
+# i=1
+# while i<=n:
+#     if (i%2 !=0):
+#         pass
+#     else:
+#         print(i)
+#     i=i+1    
 
 
 
