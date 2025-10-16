@@ -41,10 +41,33 @@
 #         pass
 #     else:
 #         print(i)
-#     i=i+1    
-
-
-
+#     i=i+1 
+# n=int(input('enter terms'))
+# a=0
+# b=1
+# c=0
+# while c<=n:
+#     print(c)
+#     a=b
+#     b=c
+#     c=a+b
+# n=int(input('enter a number\n'))
+# for i in range(0,n):
+#     print(''*i+'*'*(n-i))
+# n=int(input('enter any number\n'))
+# for i in range(1,n+1):
+#     print('*'*i+''*(n-i))/
+# n=int(input('enter a number\n'))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'*'*i)
+# n=int(input("enter a number\n"))
+# for i in range(0,n):
+#     print(' '*i+'*'*(n-i))
+n=int(input('enter nuber to print double triangle\n'))
+for i in range(1,n+1):
+    print('* '*i+' '*(n-i))
+for i in range(n,0,-1):
+    print('* '*i+' '*(n-1))    
 
 
 
