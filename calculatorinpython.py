@@ -42,7 +42,7 @@ while (True):
                     else:    
                         l.append(value)
                         div=div//value
-                print(f'sub of given {l} is {div}')    
+                print(f'division of given {l} is {div}')    
                 
         else:
             break

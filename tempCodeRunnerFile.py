@@ -1,5 +1,3 @@
-while i<=n:
-    while j<=i:
-        print(j,end='')
-        j=j+1
-    print()   
+n =int(input("Enter number of rows:\n"))
+for i in range(0,n): 
+    print(' '*i +' *'* (n-i))

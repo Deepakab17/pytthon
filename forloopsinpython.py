@@ -63,11 +63,32 @@
 # n=int(input("enter a number\n"))
 # for i in range(0,n):
 #     print(' '*i+'*'*(n-i))
-n=int(input('enter nuber to print double triangle\n'))
-for i in range(1,n+1):
-    print('* '*i+' '*(n-i))
-for i in range(n,0,-1):
-    print('* '*i+' '*(n-1))    
+# n=int(input('enter nuber to print double triangle\n'))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+' *'*i)
+# for i in range(n-1,0,-1):
+# #     print(' '*(n-i)+' *'*i)   
+# n = int(input("enter rows\n")) 
+# for i in range(0, n): 
+#        print(' '*i+' *'*(n-i))
+# for i in range(2, n+1):
+#        print(' '*(n-i) + ' *'*i)
+n=int(input("enter a number\n"))
+count=0
+sum=0
+original=n
+new=n
+while n>0:
+    count=count+1
+    n=n//10
+while new>0:
+    digit=new%10
+    sum=sum+digit**count
+    new=new//10
+if original==sum:
+    print('armstrong')
+else:
+    print('not armstrong')    
 
 
 
