@@ -19,4 +19,6 @@ y=[1,2,3,4]
 #print(x>=y)
 #print(x!=y)
 print(x is y)
-print(x is not y)
+import py_compile
+
+py_compile.compile('al.py')

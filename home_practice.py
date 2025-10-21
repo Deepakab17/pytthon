@@ -48,7 +48,7 @@ while(True):
                 sub,l=0,[]
                 n=int(input("enter how many numbers you want to substract\n"))  
                 for i in range(1,n+1): 
-                    value=int(input("enter number {i} value\n"))  
+                    value=int(input(f'enter number {i} value\n'))  
                     if i==1:
                        sub=value
                        l.append(value)
