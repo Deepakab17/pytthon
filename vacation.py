@@ -66,20 +66,46 @@
 #             break
 #     else:
 #         print("Chose a valid number")
-number=int(input("Enter a number\n"))
-count=0
-sum=0
-new=number
-original=number
-while number>0:
-    count=count+1
-    number=number//10
-while new>0:
-    digit=new%10
-    sum=sum+digit**count
-    new=new//10
-if sum==original:
-    print("armstrong")
-else:
-    print("not armstrong")
+# number=int(input("Enter a number\n"))
+# count=0
+# sum=0
+# new=number
+# original=number
+# while number>0:
+#     count=count+1
+#     number=number//10
+# while new>0:
+#     digit=new%10
+#     sum=sum+digit**count
+#     new=new//10
+# if sum==original:
+#     print("armstrong")
+# else:
+#     print("not armstrong")
+# n=int(input("enter a number:\n"))
+# rev=0
+# new=n
+# while n>0:
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# if rev==new:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# n=int(input("enter a number to find factors:\n"))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i)
+# print(f"the Factors of {n} are {i} ")  
+# n=int(input("enter a number to find perfect number:\n"))
+# sum=0
+# for i in range(1,n):
+#     if n%i==0:
+#         sum=sum+i
+# if sum==n:
+#     print("this is a perfcect number")  
+# else:
+#     print("not perfect")  
+ 
 
