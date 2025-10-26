@@ -107,5 +107,50 @@
 #     print("this is a perfcect number")  
 # else:
 #     print("not perfect")  
- 
+# n=int(input("enter a number to find prime number\n"))
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count=count+1
+# if count==2:
+#     print("Prime number")
+# else:
+#     print("not prime")
+# n=int(input("Enter any number\n"))
+# count=sum=0
+# new=original=n
+# while n>0:
+#     count=count+1
+#     n=n//10
+# while new>0:
+#     digit=new%10
+#     sum=sum+digit**count
+#     new=new//10
+# if sum==original:
+#     print("Armstrong Number")
+# else:
+#     print("Not Armstrong")
+# n=int(input("enter number of rows\n"))
+# for i in range(1,n+1):
+#     print('*'*i+' '*(n-i))
+# n=int(input("enter number of rows to print\n"))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'*'*i)
+# n=int(input("enter number of rows to print\n"))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+' *'*i)
+# n= int(input("enter number of rows\n"))
+# for i in range(0,n):
+#     print(' '*i+'*'*(n-i))
+# n= int(input("enter number of rows\n"))
+# for i in range(0,n):
+#     print('*'*(n-i)+' '*i)
+n=int(input("enter  number of rows\n"))
+for i in range(1,n+1):
+    print(' '*(n-i)+' *'*i)
+for i in range(4,0,-1):
+    print(' '*(n-i)+' *'*i)
+
+
+
 
