@@ -32,8 +32,35 @@
 #     return counter
 # print(increment(10))
 # print(counter)
-def greet(name):
-    print(f"hi {name}")
+# def greet(name):
+#     print(f"hi {name}")
 
 
-print(greet("deepak"))
+# print(greet("deepak"))
+#keyword arguments_----------------------------------------
+# def increment(number,by):
+#     return number+by
+
+# print(increment(5,by=5 ))
+#default arguments-----------------------------------------------------------
+# def multiply(number, by=2):
+#     return number*by
+
+# print(multiply(7))
+# args-------------------------------------------------------------------
+# def multiply(*numbers):
+#     total=1
+#     for number in numbers:
+#         total*=number
+#     return total
+
+# print(multiply(4,5,7,8))
+# args--------------------------------------
+# def save_user(**user):
+#     print(user)
+
+# print (save_user(id='1',name= 'Deepak',age='23'))
+def save_user(**user):
+    print(user["name"])
+
+save_user(id='1',name= 'Deepak',age='23')
