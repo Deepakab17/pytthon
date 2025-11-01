@@ -60,7 +60,41 @@
 #     print(user)
 
 # print (save_user(id='1',name= 'Deepak',age='23'))
-def save_user(**user):
-    print(user["name"])
+# def save_user(**user):
+#     print(user["name"])
 
-save_user(id='1',name= 'Deepak',age='23')
+# save_user(id='1',name= 'Deepak',age='23')
+
+# scope______-------------------------------
+# message = "b"
+# def greet(name):
+#     global message
+#     message="d"
+# greet("deepak")
+# print(message)
+# def fizz_buzz(input):
+#     if input%3==0 and input%5==0:
+#        return  "fizzbuzz"
+#     if input%3==0:
+#        return  "fizz"
+#     if input%5==0:
+#        return  "buzz"
+#     return input
+  
+
+# print(fizz_buzz(3))
+def palindrome(number):
+    rev=0
+    original=number
+    while number>0:
+        digit=number%10
+        rev=rev*10+digit
+        number=number//10
+    if rev==original:
+        return "palindrome"
+    else:
+        return "not palindrome"
+    
+print(palindrome(121))
+
+    
