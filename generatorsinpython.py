@@ -14,14 +14,17 @@
 # def gen(num):
 #     for i in range(num+1):
 #         yield i
-# # for i in gen(10):
-# #     print(i)
+# for i in gen(10):
+#     print(i)
 # x=gen(10)
 # print(next(x))
 # print(next(x))
 # print(next(x))
 # print(next(x))
-u=(i for i in range(10))
-print(u)
-print(next(u))
-print(next(u))
+# u=(i for i in range(10))
+# print(next(u))
+# print(next(u))
+# l=[1,2,3,4,5,6,"python"]
+# l1=iter(l)
+# print(l1)
+# print(next(l1))

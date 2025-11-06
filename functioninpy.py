@@ -83,18 +83,23 @@
   
 
 # print(fizz_buzz(3))
-def palindrome(number):
-    rev=0
-    original=number
-    while number>0:
-        digit=number%10
-        rev=rev*10+digit
-        number=number//10
-    if rev==original:
-        return "palindrome"
-    else:
-        return "not palindrome"
+# def palindrome(number):
+#     rev=0
+#     original=number
+#     while number>0:
+#         digit=number%10
+#         rev=rev*10+digit
+#         number=number//10
+#     if rev==original:
+#         return "palindrome"
+#     else:
+#         return "not palindrome"
     
-print(palindrome(121))
+# print(palindrome(121))
+# def square(number):
+#     return number**2
+
+# result=square(5)
+# print(result)
 
     
