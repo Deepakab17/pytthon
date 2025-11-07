@@ -1,0 +1,7 @@
+f=open('a1.txt','a')
+print(f.name)
+print(f.mode)
+print(f.encoding)
+print(f.writable())
+print(f.readable())
+print(f.closed)

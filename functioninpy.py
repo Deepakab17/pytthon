@@ -102,4 +102,24 @@
 # result=square(5)
 # print(result)
 
-    
+# import math
+# def circle(radius):
+#     area=math.pi*radius**2
+#     circumference=2*math.pi*radius
+#     return area, circumference
+
+# a,c=circle(5)
+# print("area :",round(a,2), "circumference:", round(c,2))
+# def greet(name="Arvind"):
+#     return "hello, sailor," + name + " How are you doing today?"
+
+# print(greet())
+def add(*args):
+    print(args)
+    for i in args:
+        print(i*3)
+    return sum(args)
+
+result=add(1,2,3,4)
+print(result)
+ 
