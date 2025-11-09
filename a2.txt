@@ -1,5 +1,3 @@
-data=pythonjavapython
-java
 pythonThis is pythonthis is 
              python
                 class
