@@ -44,4 +44,42 @@
 # obj1=Student("Deepak","Cricketer")
 # print(id(obj.n))
 # print(id(obj1.n))
+# class Student:
+#     def __init__(self,name,quali):
+#        self.n=name
+#        self.q=quali
+#     #    print(self.n,self.q)
+#     def add(self,contact):
+#         self.c=contact
+#         # print(self.n,self.q,self.c,self.city)
+# obj=Student("Deepak","Cricketer")
+
+# obj.city="kolkata"
+# x=eval(input("enter contact details\n"))
+# obj.add(x)
+# print(obj.n,obj.q,obj.c,obj.city)
+class Student:
+    scholl="ABCD"
+    def __init__(self,name,quali):
+       self.n=name
+       self.q=quali
+       Student.grade='10'
+    #    print(self.n,self.q)
+    def add(self):
+        Student.principle="GGGG"
+        # print(self.n,self.q,self.c,self.city)
+Student.school_city='Bhopal'
+obj=Student("Deepak","Cricketer")
+
+obj.city="kolkata"
+x=eval(input("enter contact details\n"))
+obj.add(x)
+print(obj.n,obj.q,obj.c,obj.city)
+
+
+
+
+
+
+
 
