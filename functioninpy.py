@@ -114,12 +114,12 @@
 #     return "hello, sailor," + name + " How are you doing today?"
 
 # print(greet())
-def add(*args):
-    print(args)
-    for i in args:
-        print(i*3)
-    return sum(args)
+# def add(*args):
+#     print(args)
+#     for i in args:
+#         print(i*3)
+#     return sum(args)
 
-result=add(1,2,3,4)
-print(result)
+# result=add(1,2,3,4)
+# print(result)
  
