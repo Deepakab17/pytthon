@@ -1,2 +1,5 @@
-omerce')
-obj.greet()
+e)
+# x=float(input("enter updated price"))
+# obj.update_price(x)
+# obj1=Book('JAVA',200.98)
+# print(obj1.t,obj1.tp,Book.Price)

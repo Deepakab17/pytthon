@@ -91,16 +91,17 @@
 #     def __init__(self,title,total_pages):
 #         self.t=title
 #         self.tp=total_pages
-#     @classmethod
+   
 #     def update_price(cls,P):
 #         cls.Price=P
+#         print(id(cls))
 # obj=Book('python',200)
 # print(obj.t,obj.tp,Book.Price)
 # x=float(input("enter updated price"))
 # obj.update_price(x)
 # obj1=Book('JAVA',200.98)
 # print(obj1.t,obj1.tp,Book.Price)
-
+# print(id(Book))
 
 # class Web:
 #     def __init__(self,name):
@@ -121,12 +122,12 @@
 # obj.greet()
 # obj=Web
 # obj.greet()
-class Student:
-    x=10
-    y=20
-    def new(self):
-        print("new")
-obj=Student.new("deep")
+# class Student:
+#     x=10
+#     y=20
+#     def new(self):
+#         print("new")
+# obj=Student.new("deep")
 
 # print(Student.x)
 # class Parent:
@@ -149,6 +150,26 @@ obj=Student.new("deep")
 # obj=Child()
 # print(obj.watch)
 # obj.home()
+# class Student:
+#     def __init__(self,name,roll):
+#         self.n=name
+#         self.r=roll
+#     def new(self,grade):
+#         self.g=grade
+    
+# class Watch:
+#     def __init__(self,brand):
+#         self.b=brand
+
+    
+# obj=Student('raj',101)
+# obj=Watch('Richard Mille')
+# print(obj)
+
+        
+
+    
+    
 
 
 
