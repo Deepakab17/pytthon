@@ -60,10 +60,11 @@
 #     print(user)
 
 # print (save_user(id='1',name= 'Deepak',age='23'))
-# def save_user(**user):
-#     print(user["name"])
+def save_user(**user):
+    print(user["name"])
+    print(user)
 
-# save_user(id='1',name= 'Deepak',age='23')
+save_user(id='1',name= 'Deepak',age='23')
 
 # scope______-------------------------------
 # message = "b"
